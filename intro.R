@@ -20,6 +20,9 @@ help("data.frame")
 4*4
 600%%10
 
+#logical operators
+x=5
+y=-4
 
 #vector
 w<-c(1,2,3,4)
@@ -30,6 +33,10 @@ e<-c("a","b")
 e
 class(e)
 
-#logical operators
-x=5
-y=-4
+
+#factor (sequence assigning a category to each index.)
+gender<-c(0,1,1,0,1)
+gender
+
+Gender<-factor(gender,c(0,1),c("Male","Female"))
+class(Gender)
