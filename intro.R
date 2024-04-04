@@ -21,6 +21,15 @@ help("data.frame")
 600%%10
 
 
+#vector
+w<-c(1,2,3,4)
+w
+class(w)
+
+e<-c("a","b")
+e
+class(e)
+
 #logical operators
 x=5
 y=-4
