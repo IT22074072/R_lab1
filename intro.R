@@ -65,4 +65,9 @@ matrix2<-matrix(c(1,2,3,4), nrow = 2, ncol = 2, byrow = FALSE)
 matrix2
 class(matrix2)
 
+#data frame(table structure)
+height<-c(67,89,43,90)
+weight<-c(56,34,49,67)
 
+data_set<-data.frame(height,weight)
+data_set
