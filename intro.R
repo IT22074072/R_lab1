@@ -38,5 +38,20 @@ class(e)
 gender<-c(0,1,1,0,1)
 gender
 
-Gender<-factor(gender,c(0,1),c("Male","Female"))
+Gender<-factor(gender, c(0,1), c("Male", "Female"))
+Gender
 class(Gender)
+
+
+#list(collection of objects)
+
+p<-c(1,2,3)
+q<-"Green"
+r<-21
+p
+q
+r
+
+Data<-list(p,q,r)
+Data
+class(Data)
