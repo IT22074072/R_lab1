@@ -55,3 +55,14 @@ r
 Data<-list(p,q,r)
 Data
 class(Data)
+
+#matrix
+
+matrix1<-matrix(c(1,2,3,4),nrow = 2, ncol = 2, byrow = TRUE)
+matrix1
+class(matrix1)
+matrix2<-matrix(c(1,2,3,4), nrow = 2, ncol = 2, byrow = FALSE)
+matrix2
+class(matrix2)
+
+
